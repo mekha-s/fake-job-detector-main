@@ -1,0 +1,74 @@
+{
+  "in_distribution": {
+    "raw": {
+      "name": "RAW BERT \u2014 in-distribution dataset (3k stratified sample)",
+      "accuracy": 0.9853333333333333,
+      "precision": 0.9727272727272728,
+      "recall": 0.9986666666666667,
+      "f1": 0.9855263157894737,
+      "confusion_matrix": [
+        [
+          1458,
+          42
+        ],
+        [
+          2,
+          1498
+        ]
+      ],
+      "n": 3000
+    },
+    "fused": {
+      "name": "FUSED (BERT + rule layer) \u2014 in-distribution dataset",
+      "accuracy": 0.8013333333333333,
+      "precision": 0.9669421487603306,
+      "recall": 0.624,
+      "f1": 0.7585089141004863,
+      "confusion_matrix": [
+        [
+          1468,
+          32
+        ],
+        [
+          564,
+          936
+        ]
+      ],
+      "n": 3000
+    }
+  },
+  "adversarial": {
+    "raw": {
+      "accuracy": 0.575,
+      "precision": 0.6363636363636364,
+      "recall": 0.35,
+      "f1": 0.45161290322580644,
+      "confusion_matrix": [
+        [
+          16,
+          4
+        ],
+        [
+          13,
+          7
+        ]
+      ]
+    },
+    "fused": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          20,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ]
+    }
+  }
+}

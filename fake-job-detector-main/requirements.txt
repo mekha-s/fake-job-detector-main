@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+torch
+transformers
+numpy
+spacy
+easyocr
+opencv-python
+duckduckgo_search
+pandas
+scikit-learn

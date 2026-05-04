@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Models & datasets (large binary files)
+models/*.pt
+models/*.bin
+models_emscad/*.pt
+models_emscad/*.bin
+data/*.csv
+
+# Empty test files / temporary artifacts
+empty.pdf
+image.jpg
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local Claude session metadata
+.claude/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Logs
+*.log
